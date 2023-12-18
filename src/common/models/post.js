@@ -1,6 +1,7 @@
 import { Schema, model } from 'mongoose'
 
-export const categories = ['JavaScript', 'HTML', 'CSS', 'Other']
+// prettier-ignore
+export const categories = ['JavaScript', 'HTML', 'CSS', 'React', 'Node', 'Express', 'MongoDB', 'Career', 'Animation','Other']
 
 const postSchema = new Schema(
   {
